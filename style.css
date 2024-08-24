@@ -1,0 +1,170 @@
+:root{
+    --azul-escuro: rgb(1, 38, 80);
+    --azul-claro: rgb(4, 86, 180);
+    --branco: white;
+    --cinza: rgb(245, 242, 242);
+}
+
+*{
+    background: var(--cinza);
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.titulo{
+    color: var(--azul-escuro);
+    font-size: 2.8rem; 
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    justify-content: flex-start;
+}
+
+textarea{
+    border: transparent;
+}
+
+.areaText{
+    background: var(--cinza);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: var(--azul-escuro);
+    font-size: 16px;
+    margin-left: 185px;
+    margin-top: 20px;
+    padding: 40px;
+    position: fixed;
+    width: 750px;
+    height: 520px;  
+}
+
+::placeholder{ color: var(--azul-escuro);}
+    .area-text:focus {
+        outline: none;
+    }
+
+.areaMensagem {
+    background: var(--branco) url(/assets/Boneco.png) no-repeat center 60px;
+    background-size: auto;
+    border: none;
+    border-radius: 24px;
+    color: var(--azul-escuro);
+    margin-left: 230px;
+    margin-top: 0px;
+    padding: 40px;
+    position: fixed;
+    width: 550px; 
+    height: 635px; 
+    box-sizing: border-box;
+}
+
+.area-mensagem:focus{
+    outline: none;
+}
+
+.areaMensagem.sem-imagem {
+    background-image: none;
+}
+
+.mensagemBusca{
+    color: var(--azul-escuro);
+    background-color: transparent; 
+    font-size: 25px;
+    position: absolute;
+    bottom: 265px; 
+    left: 1200px; 
+    z-index: 10;
+}
+.mensagemInformativa{
+    color: var(--azul-claro);
+    background-color: transparent; 
+    font-size: 12px;
+    position: absolute;
+    bottom: 240px; 
+    left: 1200px; 
+    transform: translateX(3%);
+    text-align: center;
+    z-index: 10;
+}
+
+.button{
+    display: flex;
+    margin-top: 545px;
+}
+
+.botCripto{
+    background-color: var(--azul-escuro);
+    border: 1px solid var(--azul-escuro);
+    border-radius: 24px;
+    color: var(--branco);
+    font-size: 16px;
+    cursor: pointer;
+    height: 67px;
+    position:relative ;
+    width: 328px;
+}
+
+.botDescripto{
+    background-color: var(--branco);
+    border: 1px solid var(--azul-escuro);
+    border-radius: 24px;
+    color: var(--azul-escuro);
+    font-size: 16px;
+    cursor: pointer;
+    height: 67px;
+    position:relative ;
+    width: 328px;
+}
+
+.copiarBot{
+    background-color: var(--branco);
+    border: 1px solid var(--azul-escuro);
+    border-radius: 24px;
+    color: var(--azul-escuro);
+    font-size: 16px;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    bottom: 120px; 
+    left: 49%;
+    transform: translateX(53%); 
+}
+
+.informacao {
+    position: relative;
+    margin-top: 490px; 
+    color: var(--azul-claro);
+    font-size: 16px;
+    left: 11%; 
+}
+
+.rodape {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    background-color: var(--azul-escuro);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 3px; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.rodape p {
+    background-color: transparent; 
+}
+
+
+
